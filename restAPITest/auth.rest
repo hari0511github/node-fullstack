@@ -1,0 +1,26 @@
+
+POST  http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "zagrevauxavi-9970@yopmail.com",
+    "password": "H#r129210000"
+}
+
+###
+POST  http://localhost:3000/auth/verify
+Content-Type: application/json
+
+{
+    "email": "zagrevauxavi-9970@yopmail.com",
+    "code": "513138"
+}
+
+###
+POST  http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email": "zagrevauxavi-9970@yopmail.com",
+    "password": "H#r129210000"
+}
